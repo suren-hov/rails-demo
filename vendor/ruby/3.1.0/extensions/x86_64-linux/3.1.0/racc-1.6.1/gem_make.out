@@ -1,0 +1,17 @@
+current directory: /home/cretrix/Projects/demo/vendor/ruby/3.1.0/gems/racc-1.6.1/ext/racc/cparse
+/home/cretrix/.rbenv/versions/3.1.3/bin/ruby -I /home/cretrix/.rbenv/versions/3.1.3/lib/ruby/3.1.0 extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/cretrix/Projects/demo/vendor/ruby/3.1.0/gems/racc-1.6.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20221222-49420-lrrb8h sitelibdir\=./.gem.20221222-49420-lrrb8h clean
+
+current directory: /home/cretrix/Projects/demo/vendor/ruby/3.1.0/gems/racc-1.6.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20221222-49420-lrrb8h sitelibdir\=./.gem.20221222-49420-lrrb8h
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/cretrix/Projects/demo/vendor/ruby/3.1.0/gems/racc-1.6.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20221222-49420-lrrb8h sitelibdir\=./.gem.20221222-49420-lrrb8h install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20221222-49420-lrrb8h/racc
